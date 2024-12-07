@@ -13,7 +13,27 @@ SafeMailAI is a powerful email classification tool that leverages NLP and machin
 ## Installation
 
 ### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/your-username/spam-email-classifier.git
 cd spam-email-classifier
+```
+Replace your-username with your actual GitHub username.
+
+### 2.  Install Dependencies
+
+Once you’ve cloned the repository, navigate to the project folder and install the required dependencies:
+```bash
+
+    pip install -r requirements.txt
+
+```
+    
+This command will install all the necessary libraries such as Streamlit, scikit-learn, nltk, and others.
+
+### 3.Run the Application
+Once the dependencies are installed, you can start the application with the following command:
+  ```bash
+  streamlit run app.py
+```
+
+This will launch the application in your browser. By default, it will run on localhost:8501.
